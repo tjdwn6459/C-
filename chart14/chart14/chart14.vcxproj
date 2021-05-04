@@ -18,11 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="회문.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9fb92664-397d-441e-b9ad-81fb0b3038c6}</ProjectGuid>
-    <RootNamespace>chart6</RootNamespace>
+    <ProjectGuid>{ea288299-8a1f-40c4-8d5c-9290ad445dc7}</ProjectGuid>
+    <RootNamespace>chart14</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
