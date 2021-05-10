@@ -17,7 +17,7 @@ int main(void)
 		gets(temp); //임시적으로temp입력을 받다 (gets 문자열을 전용으로 입력 받는 함수, 띄어쓰기가 가능함)
 		if (strcmp(temp, "end") == 0)break; //srtcmp 문자열 2개 비교 (temp와 "end"가 같으면 반복문을 빠져나온다)
 		str[i] = (char*)malloc(strlen(temp) + 1);//strlen 문자열 길이 함수 
-		strcpy(str[i], temp); //첫번째 방에 temp의 주솟값 저장
+		strcpy(str[i], temp); //첫번째 방에 temp의 주솟값 저장(문자열을 복사)
 		i++;
 	}
 
@@ -25,10 +25,10 @@ int main(void)
 
 	for (i = 0; str[i] != NULL; i++)
 	{
-		free(str[i]);
+		free(str[i]); //한줄씩 메모리 할당 해제를 해주고 
 	}
 
-	return 0;
+	return 0;//프로그램 종료 
 }
 	void print_str(char** ps) //3)포인트배열 입력으로 사용할려면 이중포인트 사용해야한다
 	{
