@@ -1,4 +1,6 @@
 #include <stdio.h>
+
+//½Ç¼öÇü ³ª´°¼À
 int main()
 {
 	double a;

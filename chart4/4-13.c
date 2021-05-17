@@ -1,15 +1,18 @@
 #include <stdio.h>
+
+//비트 연산식의 결과
 int main()
 {
-	int a = 10; // int는 4byte가 8인 32byte
-	int b = 12;
+	// int는 4byte가 8인 32byte(즉 32칸의 공간이 있다)
+	int a = 10; // 비트열 00000000 00000000 00000000 00001010
+	int b = 12;// 비트열 00000000 000000000 00000000 00001100
 
-	printf("a & b : %d\n", a & b);
+	printf("a & b : %d\n", a & b);//비트열의 값이 같을경우에만 '1'을 출력
 	printf("a ^ b : %d\n", a ^ b); //배타적 논리합 a와 b가 같으면 거짓 값이 다르면 참이 되는 형태
-	printf("a | b : %d\n", a | b);
-	printf("~a : %d\n", ~a);
-	printf("a << 1 : %d\n", a << 1);
-	printf("a >> 2 : %d\n", a >> 2);
+	printf("a | b : %d\n", a | b);//두비트중 하나라도 참이면 참을 출력
+	printf("~a : %d\n", ~a);//0을1로 1을 0으로 바꾼후 값을 계산해 +1 로 한뒤 -를 붙인다
+	printf("a << 1 : %d\n", a << 1);//a의 비트들을 모두 왼쪽으로 한칸씩이동
+	printf("a >> 2 : %d\n", a >> 2);//a의 비트들을 모두 오른쪽으로 2칸씩이동
 
 
 	return 0;

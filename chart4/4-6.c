@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+
+//논리 연산의 결과값 확인
+
 int main()
 {
 	int a = 30;

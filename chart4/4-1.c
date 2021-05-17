@@ -1,9 +1,10 @@
 #include <stdio.h>
 
+//´ëÀÔ µ¡¼À »¬¼À °ö¼À ³ª´°¼ÀÀÇ ¿¬»ê
 int main()
 {
-	int a, b;
-	int sum, sub, mul, inv;
+	int a, b; //º¯¼ö a, b¼±¾ð
+	int sum, sub, mul, inv;//¿¬»ê°ªÀ» ´ãÀ» °ø°£ ¼±¾ð
 
 	a = 10;
 	b = 20;

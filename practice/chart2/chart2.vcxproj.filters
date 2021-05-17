@@ -15,16 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main4.c">
+    <None Include="3-2.c">
       <Filter>소스 파일</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="point4.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="line4.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
+    </None>
   </ItemGroup>
 </Project>

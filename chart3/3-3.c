@@ -1,8 +1,8 @@
 #include <stdio.h>
-
+//여러가지 정수형 변수
 int main()
 {
-	short sh = 32767;
+	short sh = 32767; 
 	int in = 2147483647;
 	long ln = 2147483647;
 	long long lln = 123451234512345;

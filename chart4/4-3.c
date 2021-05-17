@@ -1,8 +1,9 @@
 #include <stdio.h>
 
+//증감연산자의 연산
 int main()
 {
-	int a = 10;
+	int a = 10; 
 	int b = 20;
 	int c = 10, d = 20;
 
