@@ -18,7 +18,7 @@ int main()
 		if(ch=='X')
 		{
 			printf("중단"); // X의 값일때 중단되며 나가게 된다
-			exit(0);
+			exit(0);//프로그램 종료
 		}
 		else
 		{

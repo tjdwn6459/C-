@@ -23,5 +23,5 @@ int get_num(void)
 	printf("양수입력 : ");
 	scanf("%d", &num); //정수를 입력 받음 그런 형태의 함수 "get_num"
 
-	return num;
+	return num;//int num으로 출력값을 내준다 
 }
