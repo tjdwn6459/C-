@@ -4,13 +4,13 @@ struct student //예약어 struct 구조체이름student
 {
 
 	int num;
-	double grade; //구조체는 멤버로써 변수만 가질 수 있다
+	double grade; //자료형 멤버로써 변수만 가질 수 있다
 
 };
 
 int main(void)
 {
-	struct student s1; //구조체 student라는 객체 's1'선언
+	struct student s1; //구조체 student라는 객체 's1'(변수)선언
 
 	s1.num = 2; //멤버접근 연산자 . 해서 2를 집어넣다
 	s1.grade = 2.7;

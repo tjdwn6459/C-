@@ -10,7 +10,7 @@ int main(void)
 
 
 	fp = sum;//함수타입은  입력과 출력이 같아야한다 
-	res = fp(10, 20); //res에
+	res = fp(10, 20); //res에 
 	printf("result : %d\n", res);
 
 

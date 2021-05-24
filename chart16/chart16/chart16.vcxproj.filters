@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="이중포인터 매개변수.c">
+    <ClCompile Include="16-5.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

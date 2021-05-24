@@ -2,9 +2,9 @@
 #include <stdio.h>
 #define _CRT_SECURE_NO_WARNINGS
 
-struct  profile 
+struct  profile //구조체 선언
 {
-	int age;
+	int age; //구조체 멤버 선언
 	double height;
 };
 

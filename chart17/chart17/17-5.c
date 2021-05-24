@@ -6,7 +6,7 @@ struct vision //vision구조체 선언
 	double left;//double형의 멤버 변수 선언
 	double right;
 };
-struct vision exchange(struct vision robot); // 출력 : 구조체 타입의 vision 두 시력을 바꾸는 함수
+struct vision exchange(struct vision robot); // 출력 : 구조체 타입의 vision 두 시력을 바꾸는 함수 (따로 메인에 빼야한다)
 
 int main(void)
 {

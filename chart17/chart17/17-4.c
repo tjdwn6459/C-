@@ -1,6 +1,6 @@
 #include <stdio.h>
 //최고점 학생 데이터 출력
-struct  student 
+struct  student //구조체 선언
 {
 	int id;
 	char name[20];
