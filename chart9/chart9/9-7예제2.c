@@ -7,11 +7,11 @@ int main(void)
 
 	/*int a = 10, b = 20;*/
 	int temp;
-	printf("바꾸기전 함수 a, b : %d, %d", a, b);
+	printf("바꾸기전 함수 a, b : %d, %d\n", a, b);
 	//함수 선언
 	//바꾸기 전 함수 출력
 
-	swap();a	
+	swap();
 	printf(" 바낀 후 a, b: %d, %d", a, b);
 
 

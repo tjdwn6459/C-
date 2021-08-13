@@ -11,7 +11,7 @@ int main(void)
    pa = &a; //포인터pa에 변수 a 주소값 대입
    pb = &b; //포인터pb에 변수 b 주소값 대입
 
-   *pt = *pa + *pb; //a와 b값을 더해 total에 저장
+   *pt = *pa + *pb; //a와 b값을 더해 total의 주솟값을 가진 pt의 포인터변수에 저장
    *pg = *pt / 2.0; // total에 저장된 값을 2로 나누어 avg에 저장
 
    printf("두 정수 의 값 : %d, %d\n", *pa, *pb);
